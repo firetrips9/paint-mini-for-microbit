@@ -1,7 +1,7 @@
 input.onButtonPressed(Button.A, function () {
     led.plot(ledindex, verticalledindex)
     ledindex += 1
-    if (ledindex == 6) {
+    if (ledindex == 5) {
         verticalledindex += 1
         ledindex = 0
     }
